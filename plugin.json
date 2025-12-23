@@ -1,11 +1,11 @@
 {
-    "id": "com.mattermost.plugin-starter-template",
-    "name": "Plugin Starter Template",
-    "description": "This plugin serves as a starting point for writing a Mattermost plugin.",
-    "homepage_url": "https://github.com/mattermost/mattermost-plugin-starter-template",
-    "support_url": "https://github.com/mattermost/mattermost-plugin-starter-template/issues",
-    "icon_path": "assets/starter-template-icon.svg",
-    "min_server_version": "6.2.1",
+    "id": "com.ownego.plugin-channel-icon",
+    "name": "Plugin channel icon",
+    "description": "A Mattermost plugin to set custom channel icons.",
+    "homepage_url": "https://github.com/juzser/mm-plugin-channel-icon",
+    "support_url": "https://github.com/juzser/mm-plugin-channel-icon/issues",
+    "icon_path": "assets/app-icon.svg",
+    "min_server_version": "10.0.0",
     "server": {
         "executables": {
             "linux-amd64": "server/dist/plugin-linux-amd64",

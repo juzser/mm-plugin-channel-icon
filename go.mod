@@ -1,4 +1,4 @@
-module github.com/mattermost/mattermost-plugin-starter-template
+module github.com/juzser/mm-plugin-channel-icon
 
 go 1.24.3
 

@@ -12,6 +12,15 @@ export default class Plugin {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars, @typescript-eslint/no-empty-function
     public async initialize(registry: PluginRegistry, store: Store<GlobalState>) {
         // @see https://developers.mattermost.com/extend/plugins/webapp/reference/
+        registry.registerChannelHeaderMenuAction(
+          'Set channel icon',
+          (channelId) => {
+            store.dispatch({
+              type: manifest.id + '_SET_CHANNEL_ICON',
+              data: { channelId },
+            })
+          },
+        )
     }
 }
 
